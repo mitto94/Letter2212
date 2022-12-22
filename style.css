@@ -21,7 +21,7 @@
 
 [data-theme="dark"] {
   /* 텍스트 박스 배경 */
-  --primary-color: #440f0f;
+  --primary-color: #2e0b0b;
   /* 글씨 색깔 밝은걸로 */
   --on-primary: #ECEBF1;
   --on-background: #ECEBF1;

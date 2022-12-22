@@ -19,10 +19,10 @@ function toggleDarkLightMode(mode) {
     nav.style.backgroundColor = mode === "dark" ? `rgb(0 0 0 / 50%)` : `rgb(255 255 255 / 50%)`;
     textBox.forEach(element => {
         //텍스트 배경 색
-        element.style.backgroundColor = mode === "dark" ? `#440f0f` : `#f7cbcb`;
+        element.style.backgroundColor = mode === "dark" ? `#2e0b0b` : `#f7cbcb`;
     });
     button.forEach(element => {
-        element.style.backgroundColor = mode === "dark" ? `#440f0f` : `#f7cbcb`;
+        element.style.backgroundColor = mode === "dark" ? `#2e0b0b` : `#f7cbcb`;
         element.style.color = mode === "dark" ? `white` : `black`;
     })
     toggleText.textContent = mode === "dark"  ? 'Dark Mode' : 'Light Mode';
