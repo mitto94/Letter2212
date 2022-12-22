@@ -18,11 +18,11 @@ const button = document.querySelectorAll("button");
 function toggleDarkLightMode(mode) {
     nav.style.backgroundColor = mode === "dark" ? `rgb(0 0 0 / 50%)` : `rgb(255 255 255 / 50%)`;
     textBox.forEach(element => {
-        //텍스트 배경 색
-        element.style.backgroundColor = mode === "dark" ? `#2e0b0b` : `#f7cbcb`;
+        //텍스트 배경 색 앞에가 다크, 뒤에 라이트
+        element.style.backgroundColor = mode === "dark" ? `#385723` : `#F2F2F2`;
     });
     button.forEach(element => {
-        element.style.backgroundColor = mode === "dark" ? `#2e0b0b` : `#f7cbcb`;
+        element.style.backgroundColor = mode === "dark" ? `#385723` : `#F2F2F2`;
         element.style.color = mode === "dark" ? `white` : `black`;
     })
     toggleText.textContent = mode === "dark"  ? 'Dark Mode' : 'Light Mode';

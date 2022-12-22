@@ -7,28 +7,28 @@
 
 :root {
   /* 텍스트 박스 배경 */
-  --primary-color: #f7cbcb  ;
+  --primary-color: #F2F2F2 !important;
   /* 글씨 색(진하게) */
-  --on-primary: #440f0f;
-  --on-background: #f7cbcb;
+  --on-primary: #385723;
+  --on-background: #385723;
   /* 타이틀 폰트 색 */
-  --on-background-alt: #485713;
+  --on-background-alt: #CCAC73;
   
   /* 제일 밝은 바깥 배경 */
-  --background: #f7e1e1;
+  --background: #B81705;
   --box-shadow: 0 5px 20px 1px rgba(7, 6, 6, 0.5);
 }
 
 [data-theme="dark"] {
   /* 텍스트 박스 배경 */
-  --primary-color: #2e0b0b;
+  --primary-color: #385723;
   /* 글씨 색깔 밝은걸로 */
-  --on-primary: #ECEBF1;
-  --on-background: #ECEBF1;
+  --on-primary: #ffffff;
+  --on-background: #ffffff;
     /* 타이틀 폰트 색 */
-  --on-background-alt: #FAEBEF;
+  --on-background-alt: #FFE699;
   /* 전체 배경 색 */
-  --background: #202411;
+  --background: #25323B;
 }
 
 
